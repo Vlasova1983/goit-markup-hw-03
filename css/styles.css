@@ -1,0 +1,177 @@
+:root {
+  --color-text: #212121;
+  --color-fon: #e5e5e5;
+  --color-acsent: #2196f3;
+  --color-buttom: #757575;
+}
+body {
+  background: var(--color-fon);
+  color: var(--color-text);
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* стилизация логотипа в футере и хедере */
+.logo {
+font-family: Raleway, sans-serif;
+font-weight: 700;
+line-height: 1.2;
+font-size: 26px;
+color: var(--color-text);
+text-decoration: none;
+letter-spacing: 0.03em;
+}
+.logo-web {
+  font-family: Raleway, sans-serif;
+  color: var(--color-acsent);
+}
+.logo-web-bottom {
+font-family: Raleway, sans-serif;
+color:#FFFFFF;
+}
+/* Стилизация навигации */
+.site-nav {
+  font-weight:500;
+  line-height:1.14;
+  font-size:14px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--color-acsent);
+}
+
+.site-nav .link.current {
+  color: var(--color-acsent);
+  text-decoration: none;
+}
+.link {
+  color: var(--color-text);
+  text-decoration: none;
+}
+/*Стилизация контактов в футере и хедере  */
+
+.adress {
+  color: var(--color-buttom);
+  font-weight:500;
+  line-height:1.14;
+  font-size:14px;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  }
+.adress:hover,
+.adress:focus {
+  color: var(--color-acsent);
+}
+.adress.curent {
+  color: var(--color-acsent);
+}
+.adress-street {
+  color: #ffffff;
+  text-decoration: none;
+  }
+
+.adress-contact {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+/* Стилизация кнопок на главной странице и портфолио */
+.button {
+  color: var(--color-text);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  line-height: 2;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+}
+.butbuner {
+ font-weight: 700; 
+}
+.button:hover, 
+.buttom:focus { 
+color: #ffffff; 
+background-color: var(--color-acsent); 
+} 
+.button.primary {
+  background-color: var(--color-acsent);
+  color: #ffffff;
+  }
+.button.secondery {
+  background-color: #f5f4fa;
+  color: var(--color-text);
+}
+
+/* стилизация блока с заказом услуги */
+.baner {
+  font-weight: 900;
+  line-height:1.40;
+  font-size:44px;
+  background: #2f303a;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+}
+
+/* стилизация особенностей студии */
+
+.studio-titel {
+  line-height:1.14;
+  font-size:14px;
+  font-family: Roboto, sans-serif;
+  font-weight:700;
+  letter-spacing: 0.03em;
+ }
+.studio-text {
+  color: var(--color-buttom);
+  font-weight:400;
+  line-height:1.70;
+  font-size:14px;
+  letter-spacing: 0.03em;
+}
+/* стилизация чем мы занимаемся */
+.work-studio {
+    font-size:36px;
+    font-weight:700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
+/* стилизация раздела команда */
+.comanda {
+  font-size:36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.comanda-fio {
+font-weight: 500; 
+line-height: 1.20;
+font-size:16px;
+letter-spacing: 0.03em;
+}
+
+.profeshion {
+  color: var(--color-buttom);
+  font-weight: 400;
+  line-height:1.20;
+  font-size:16px;
+  letter-spacing: 0.03em;
+}
+
+/* стилизация раздела наши работы страница портфолио */
+.work-titly {
+  font-weight: 700;
+  line-height: 1.40;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+}
+.types-works {
+  color: var(--color-buttom);
+  font-weight: 400;
+  line-height: 2;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
