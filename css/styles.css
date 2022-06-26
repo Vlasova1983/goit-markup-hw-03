@@ -9,9 +9,31 @@ body {
   color: var(--color-text);
   font-family: Roboto, sans-serif;
   text-decoration: none;
+  margin: 0;
 }
 ul {
   list-style: none;
+}
+ .container {
+width: 1240px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 20px;
+padding-right: 20px;
+}
+.test{
+  background-color: aqua;
+}
+.tests{
+  background-color:#ffffff;
+}
+.header {
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+.list {
+  margin: 0;
+  padding: 0;
 }
 /* стилизация логотипа в футере и хедере */
 .logo {
@@ -26,10 +48,14 @@ letter-spacing: 0.03em;
 .logo-web {
   font-family: Raleway, sans-serif;
   color: var(--color-acsent);
-}
+ }
 .logo-web-bottom {
 font-family: Raleway, sans-serif;
+letter-spacing: 0.03em;
+line-height: 1.2;
+font-size: 26px;
 color:#FFFFFF;
+text-decoration: none;
 }
 /* Стилизация навигации */
 .site-nav {
@@ -81,17 +107,38 @@ color:#FFFFFF;
 }
 /* Стилизация кнопок на главной странице и портфолио */
 .button {
+  display: inline-block;
+  font-family: Roboto, sans-serif;
   color: var(--color-text);
   background-color: #f5f4fa;
   font-weight: 500;
-  line-height: 2;
+  line-height: 1.625;
   font-size: 16px;
   cursor: pointer;
-  letter-spacing: 0.06em;
-}
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid transparent;
+   }
 .butbuner {
+ display: inline-block;
+ font-family: Roboto, sans-serif;
  font-weight: 700; 
+ line-height: 1.88;
+ letter-spacing: 0.06em;
+ padding:10px 32px;
+ min-width: 200px;
+ height: 50px;
+ text-align: center;
+ margin-top: 30px;
 }
+.butportfolio {
+ display: inline-block;
+ padding:10px 22px;
+ height: 38px;
+ text-align: center;
+}
+
 .button:hover, 
 .buttom:focus { 
 color: #ffffff; 
@@ -114,9 +161,23 @@ background-color: var(--color-acsent);
   background: #2f303a;
   color: #ffffff;
   letter-spacing: 0.02em;
-}
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 1600px;
+ height: 600px;
+ }
+ .hero {
+text-align: center;
+ }
 
 /* стилизация особенностей студии */
+.studio {
+font-size:  0;
+}
+.fishka {
+  width: 1170px;
+  height: 101px;
+}
 
 .studio-titel {
   line-height:1.14;
@@ -124,54 +185,82 @@ background-color: var(--color-acsent);
   font-family: Roboto, sans-serif;
   font-weight:700;
   letter-spacing: 0.03em;
+  
  }
 .studio-text {
+   margin-bottom: 0;
   color: var(--color-buttom);
   font-weight:400;
   line-height:1.70;
   font-size:14px;
   letter-spacing: 0.03em;
-}
+  margin-top: 10px;
+ }
 /* стилизация чем мы занимаемся */
 .work-studio {
     font-size:36px;
     font-weight:700;
     line-height: 1.16;
     letter-spacing: 0.03em;
-  }
+    margin-top: 94px;
+    text-align: center;
+}
+
 /* стилизация раздела команда */
 .comanda {
   font-size:36px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
+  margin-top: 94px;
+  text-align: center;
 }
 .comanda-fio {
+  margin-top: 0;
+  margin-bottom: 0;
 font-weight: 500; 
 line-height: 1.20;
 font-size:16px;
 letter-spacing: 0.03em;
+margin-top: 30px;
 }
 
 .profeshion {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--color-buttom);
   font-weight: 400;
   line-height:1.20;
   font-size:16px;
   letter-spacing: 0.03em;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
-
+/* стилизация раздела футер */
+.footer {
+  margin-top: 94px;
+}
 /* стилизация раздела наши работы страница портфолио */
+.works-portfolio {
+font-size:  0;
+}
 .work-titly {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 700;
   line-height: 1.40;
   font-size: 18px;
   letter-spacing: 0.03em;
-}
+  margin-top: 20px;
+  }
 .types-works {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--color-buttom);
   font-weight: 400;
   line-height: 2;
   font-size: 16px;
   letter-spacing: 0.03em;
+  margin-top: 4px;
+  margin-bottom: 20px;
 }
