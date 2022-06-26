@@ -9,32 +9,28 @@ body {
   color: var(--color-text);
   font-family: Roboto, sans-serif;
   text-decoration: none;
+   margin: 0; 
+}
+.list {
   margin: 0;
+  padding: 0;
 }
 ul {
   list-style: none;
 }
  .container {
-width: 1240px;
+width: 1600px;
 margin-left: auto;
 margin-right: auto;
-padding-left: 20px;
+padding-left: 20px; 
 padding-right: 20px;
-}
-.test{
-  background-color: aqua;
-}
-.tests{
-  background-color:#ffffff;
-}
+ }
+
 .header {
   margin-top: 0;
   margin-bottom: 0;
- }
-.list {
-  margin: 0;
-  padding: 0;
 }
+
 /* стилизация логотипа в футере и хедере */
 .logo {
 font-family: Raleway, sans-serif;
@@ -48,36 +44,66 @@ letter-spacing: 0.03em;
 .logo-web {
   font-family: Raleway, sans-serif;
   color: var(--color-acsent);
+  margin-left: 215px;
  }
 .logo-web-bottom {
+display:inline-block;
 font-family: Raleway, sans-serif;
 letter-spacing: 0.03em;
 line-height: 1.2;
 font-size: 26px;
 color:#FFFFFF;
 text-decoration: none;
+margin-left: 215px;
+margin-right: 93px;
+
+margin-top: 60px;
+margin-bottom: 50px;
 }
 /* Стилизация навигации */
+.main-nav {
+  display: flex;
+  align-items: center; 
+  width: 1600px;
+  margin-right: 215px;
+  border-bottom: 1px solid #FFFFFF;
+    }
 .site-nav {
   font-weight:500;
   line-height:1.14;
   font-size:14px;
-  text-decoration: none;
+  text-decoration: none; 
   letter-spacing: 0.02em;
+  margin-right: 281px;
 }
-.site-nav:hover,
-.site-nav:focus {
+.link:hover,
+.link:focus {
   color: var(--color-acsent);
-}
-
-.site-nav .link.current {
-  color: var(--color-acsent);
-  text-decoration: none;
-}
+  }
+  
+.tel-adr { 
+  display: flex; 
+  } 
 .link {
   color: var(--color-text);
   text-decoration: none;
 }
+ 
+.menu {
+display: flex;
+margin-top: 32px;
+margin-bottom: 32px;
+width: 294px;
+}
+  .menu .link { 
+  margin-left:  50px; 
+  } 
+  .current:first-child {
+   margin-left: 93px;
+  color: var(--color-acsent);
+  text-decoration: none;
+  }
+
 /*Стилизация контактов в футере и хедере  */
 
 .adress {
@@ -93,18 +119,31 @@ text-decoration: none;
 .adress:focus {
   color: var(--color-acsent);
 }
+.adress-footer {
+  display:flex;
+  flex-direction:column;
+}
 .adress.curent {
   color: var(--color-acsent);
-}
+
+  margin-right: 50px;
+  }
 .adress-street {
   color: #ffffff;
   text-decoration: none;
+  margin-left: 215px;
   }
 
 .adress-contact {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  margin-top: 9px;
+  margin-left: 215px;
 }
+.tel-adr .tel-header {
+  margin-right: 0;
+}
+ 
 /* Стилизация кнопок на главной странице и портфолио */
 .button {
   display: inline-block;
@@ -133,10 +172,13 @@ text-decoration: none;
  margin-top: 30px;
 }
 .butportfolio {
- display: inline-block;
+ display:flex;
  padding:10px 22px;
  height: 38px;
  text-align: center;
+ margin-top: 100px;
+ margin-bottom: 50px;
+ margin-left: 517px;
 }
 
 .button:hover, 
@@ -151,6 +193,7 @@ background-color: var(--color-acsent);
 .button.secondery {
   background-color: #f5f4fa;
   color: var(--color-text);
+  
 }
 
 /* стилизация блока с заказом услуги */
@@ -174,18 +217,25 @@ text-align: center;
 .studio {
 font-size:  0;
 }
-.fishka {
-  width: 1170px;
-  height: 101px;
-}
+
+ .fishka-text { 
+  display: flex; 
+  margin-left: 215px;
+  margin-right: 215px;
+ } 
 
 .studio-titel {
+
   line-height:1.14;
   font-size:14px;
   font-family: Roboto, sans-serif;
   font-weight:700;
   letter-spacing: 0.03em;
+
+  display: flex; 
   
+  margin-top: 94px;
+  margin-left: 30px;  
  }
 .studio-text {
    margin-bottom: 0;
@@ -194,35 +244,65 @@ font-size:  0;
   line-height:1.70;
   font-size:14px;
   letter-spacing: 0.03em;
+
   margin-top: 10px;
+  margin-left: 30px;
+
+  width: 270px;
+  height: 75px;
  }
+ .one {
+  margin-left: 0;
+}
 /* стилизация чем мы занимаемся */
 .work-studio {
     font-size:36px;
     font-weight:700;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    margin-top: 94px;
     text-align: center;
+    margin-bottom: 50px;
+    margin-top: 94px;
+    }
+ .secshion-work .work-foto {
+  display: flex;
+  align-items: center;
+  margin-left: 215px;
+  margin-right: 215px;
+ }
+.work-img {
+  width:370px;
+  height:294px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.one {
+  margin-left: 0;
 }
 
 /* стилизация раздела команда */
+.secshion-comander {
+  display:flex;
+  margin-left: 215px;
+}
 .comanda {
   font-size:36px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
   margin-top: 94px;
+  margin-bottom: 50px;
   text-align: center;
 }
 .comanda-fio {
-  margin-top: 0;
-  margin-bottom: 0;
+
 font-weight: 500; 
 line-height: 1.20;
 font-size:16px;
 letter-spacing: 0.03em;
 margin-top: 30px;
+margin-bottom: 10px;
+text-align: center;
 }
 
 .profeshion {
@@ -235,11 +315,24 @@ margin-top: 30px;
   letter-spacing: 0.03em;
   margin-top: 10px;
   margin-bottom: 30px;
+  text-align: center;
+}
+.comanda-img {
+  width:270px;
+  height:260px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.one {
+  margin-left: 0;
 }
 /* стилизация раздела футер */
 .footer {
   margin-top: 94px;
-}
+  background-color:#2F303A;
+  width: 1600px;
+  height: 252px;
+  }
 /* стилизация раздела наши работы страница портфолио */
 .works-portfolio {
 font-size:  0;
@@ -252,6 +345,9 @@ font-size:  0;
   font-size: 18px;
   letter-spacing: 0.03em;
   margin-top: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+  
   }
 .types-works {
   margin-top: 0;
@@ -263,4 +359,24 @@ font-size:  0;
   letter-spacing: 0.03em;
   margin-top: 4px;
   margin-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+ 
 }
+.work-hero {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 215px;
+}
+.portfolio-img {
+  display: inline-block;
+  width: 370px;
+  height: 404px;
+  margin-left: 30px;
+  border: 1px solid #EEEEEE;
+  margin-bottom: 30px;
+}
+.porbut {
+  padding: 6px 22px;
+  margin-right: 8px;
+  }
