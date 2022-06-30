@@ -22,19 +22,19 @@ ul {
 width: 1200px;
 margin-left: auto;
 margin-right: auto;
-padding-top: 94px;
+padding-left: 15px; 
+padding-right: 15px; 
+
+/* padding-top: 94px; */
  }
-.header {
+ .header {
   margin-top: 0;
   margin-bottom: 0;
  }
  .hat {
   border-bottom: 1px solid #FFFFFF;
  }
-.test {
-  background-color: #f5f4fa;
-}
-
+ 
 /* стилизация логотипа в футере */
 .logo {
 font-family: Raleway, sans-serif;
@@ -67,7 +67,7 @@ padding-bottom: 20px;
 .main-nav {
   display: flex;
   align-items: center; 
-  padding-top: 32px;
+  /* padding-top: 32px; */
   padding-left: auto;
   }
 .site-nav {
@@ -85,7 +85,7 @@ padding-bottom: 20px;
   .link {
   color: var(--color-text);
   text-decoration: none;
-  margin-right: 50px;
+  padding-right: 50px;
 }
  
 .menu {
@@ -204,13 +204,13 @@ background-color: var(--color-acsent);
   line-height:1.40;
   font-size:44px;  
   color: #ffffff;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.06em;
 
   max-width: 696px;
   margin: auto;
   }
  .hero {  
-  width: 1600px;
+ /* width: 1200px;  */
   height: 600px;
   background: #2f303a;  
 
@@ -222,6 +222,9 @@ background-color: var(--color-acsent);
   text-align: center;
   }
 /* стилизация особенностей студии */
+.fishka {
+  padding-top: 94px;
+}
 .studio {
 font-size:  0;
 }
@@ -270,6 +273,7 @@ font-size:  0;
     letter-spacing: 0.03em;
     text-align: center;
     margin-bottom: 50px;
+    padding-top: 94px;
    }
  .secshion-work .work-foto {
   display: flex;
@@ -286,6 +290,10 @@ font-size:  0;
 }
 
 /* стилизация раздела команда */
+.comanda-about {
+margin-top: 94px;
+padding-bottom: 94px;
+}
 .secshion-comander {
   display:flex;
   background-color: #e5e5e5;
@@ -295,7 +303,6 @@ font-size:  0;
 }
   .blok-comanda {
   margin-right: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   }
 .comanda {
@@ -338,18 +345,14 @@ padding-top: 30px;
 .one {
   margin-left: 0;
 }
-.comanda-about{
-  margin-bottom: 94px;
-}
+
 /* стилизация раздела футер */
 .footer {
   background-color:#2F303A;
-  width: 1600px;
   height: 252px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px;
-  padding-left: 215px;
   }
 /* стилизация раздела наши работы страница портфолио */
 .works-portfolio {
@@ -381,7 +384,7 @@ margin-left: 8px;
   padding-right: 24px;  
   padding-top: 20px;
   }
-.types-works {
+.works-types {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--color-buttom);
@@ -396,22 +399,21 @@ margin-left: 8px;
   padding-right: 24px; 
 }
 .work-hero {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
   padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
   .portfolio-img {
   display: inline-block;
   width: 370px;
   height: 404px;
-  margin-left: 30px;
+  margin-top: 30px;
   border: 1px solid #EEEEEE;
-  margin-bottom: 30px;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  }
+  
+  }  
 
   
