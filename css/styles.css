@@ -24,18 +24,17 @@ margin-left: auto;
 margin-right: auto;
 padding-left: 15px; 
 padding-right: 15px; 
-
-/* padding-top: 94px; */
  }
  .header {
   margin-top: 0;
   margin-bottom: 0;
  }
  .hat {
-  border-bottom: 1px solid #FFFFFF;
+   border-bottom: 1px solid #FFFFFF;
  }
  
-/* стилизация логотипа в футере */
+
+/* Стилизация хедер*/
 .logo {
 font-family: Raleway, sans-serif;
 font-weight: 700;
@@ -44,7 +43,8 @@ font-size: 26px;
 color: var(--color-text);
 text-decoration: none;
 letter-spacing: 0.03em;
-padding-right: 93px;
+
+margin-right: 93px;
 padding-top: 24px;
 padding-bottom: 25px;
 }
@@ -52,108 +52,65 @@ padding-bottom: 25px;
   font-family: Raleway, sans-serif;
   color: var(--color-acsent);
   }
-.logo-web-bottom {
-display:inline-block;
-font-family: Raleway, sans-serif;
-letter-spacing: 0.03em;
-line-height: 1.2;
-font-size: 26px;
-color:#FFFFFF;
-text-decoration: none;
-align-items: center;
-padding-bottom: 20px;
-}
-/* Стилизация навигации в хедер*/
-.main-nav {
-  display: flex;
-  align-items: center; 
-  /* padding-top: 32px; */
-  padding-left: auto;
-  }
-.site-nav {
-  font-weight:500;
-  line-height:1.14;
-  font-size:14px;
-  text-decoration: none; 
-  letter-spacing: 0.02em;
- }
-.link:hover,
-.link:focus {
-  color: var(--color-acsent);
-  }
+  .site-nav {
+    font-weight:500;
+    line-height:1.14;
+    font-size:14px;
+    text-decoration: none; 
+    letter-spacing: 0.02em;
+   }
+   .tel-adr {
+    margin-left: auto;
+    font-family: Roboto, sans-serif;
+    color: var(--color-buttom);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    }
+   .menu {
+     display: flex; 
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;  
+            
+      }
+             
+      
+    .menu-text{
+      margin-right: 50px;
+    }
+
+  .link:hover,
+  .link:focus {
+   color: var(--color-acsent);
+    }
 
   .link {
   color: var(--color-text);
   text-decoration: none;
-  padding-right: 50px;
+ 
 }
  
-.menu {
-display: flex;
-}
-
-.menu:last-child {
-margin-right: 0; 
-}
   .current:first-child {
   color: var(--color-acsent);
   text-decoration: none;
   }
 
-/*Стилизация контактов в  хедере  */
-
-.adress {
-  color: var(--color-buttom);
-  font-weight:500;
-  line-height:1.14;
-  font-size:14px;
-  font-style: normal;
-  text-decoration: none;
-  letter-spacing: 0.02em;
+  .adress.curent {
+    color: var(--color-acsent);
+    margin-right: 50px;
+    margin-left: ;
   }
-.adress:hover,
-.adress:focus {
-  color: var(--color-acsent);
-}
-
-.adress.curent {
-  color: var(--color-acsent);
-
-  padding-right: 50px;
+  .tel-adr .tel-header {
+    margin-right: 0;
   }
-/*Стилизация контактов в футере   */
-.adress-footer {
-  display:flex;
-  flex-direction:column;
-} 
-
-.adress-street {
-  font-family: Roboto, sans-serif;
-  font-weight:400;
-  line-height:1.71;
-  font-size:14px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  text-decoration: none;
-  padding-top: 9px;
+  .tel-adr {
+   margin-left: auto;
   }
   
-.adress-contact {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  padding-top: 9px;
-  font-family: Roboto, sans-serif;
-  font-weight:400;
-  line-height:1.71;
-  font-size:14px;
-  letter-spacing: 0.03em;
- }
-.tel-adr .tel-header {
-  margin-right: 0;
-}
-.tel-adr {
- margin-left: auto;
-}
  
 /* Стилизация кнопок на главной странице и портфолио */
 .button {
@@ -210,7 +167,6 @@ background-color: var(--color-acsent);
   margin: auto;
   }
  .hero {  
- /* width: 1200px;  */
   height: 600px;
   background: #2f303a;  
 
@@ -233,7 +189,6 @@ font-size:  0;
   } 
 
 .studio-titel {
-
   line-height:1.14;
   font-size:14px;
   font-family: Roboto, sans-serif;
@@ -252,20 +207,20 @@ font-size:  0;
 
   width: 270px;
   height: 75px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
 }
-.fishka-content:not(:first-child)
+.fishka-content
 {
   margin-right: 30px; 
 }
-
- .fishka-content:last-child {
-  margin-right: 0;
- }
- .one {
-  padding-left: 0;
-  
-}
+ 
 /* стилизация чем мы занимаемся */
+.secshion-work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .work-studio {
     font-size:36px;
     font-weight:700;
@@ -273,45 +228,45 @@ font-size:  0;
     letter-spacing: 0.03em;
     text-align: center;
     margin-bottom: 50px;
-    padding-top: 94px;
-   }
+    }
  .secshion-work .work-foto {
   display: flex;
   align-items: center;
- }
+  }
 .work-img {
   width:370px;
   height:294px;
   margin-left: 30px;
   margin-top: 50px;
 }
-.one {
-  margin-left: 0;
-}
 
 /* стилизация раздела команда */
 .comanda-about {
-margin-top: 94px;
-padding-bottom: 94px;
+  padding-bottom: 94px;
 }
-.secshion-comander {
-  display:flex;
-  background-color: #e5e5e5;
-  }
-.secshion-comander:last-child {
-  margin-right: 0;
-}
-  .blok-comanda {
-  margin-right: 30px;
-  border-radius: 0px 0px 4px 4px;
-  }
+
 .comanda {
   font-size:36px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  
   text-align: center;
+  margin-bottom: 50px;
+}
+
+.secshion-comander {
+  display:flex;
+  background-color: #e5e5e5;
+  }
+
+  .blok-comanda {
+  margin-right: 30px;
+  border-radius: 0px 0px 4px 4px;
+  }
+.comanda-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .comanda-fio {
 
@@ -322,7 +277,7 @@ letter-spacing: 0.03em;
 text-align: center;
 margin-top: 0;
 margin-bottom: 0;
-padding-top: 30px;
+padding-bottom: 10px;
 }
 
 .profeshion {
@@ -334,42 +289,93 @@ padding-top: 30px;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 10px;
-  padding-bottom: 30px;
- }
-.comanda-img {
-  width:270px;
-  height:260px;
-  margin-top: 50px;
-}
-.one {
-  margin-left: 0;
-}
+  }
 
-/* стилизация раздела футер */
+/* стилизация  футер */
 .footer {
   background-color:#2F303A;
   height: 252px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px;
+  padding-bottom: 60px;
   }
+  .logo-web-bottom {
+    display:inline-block;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    font-size: 26px;
+    color:#FFFFFF;
+    text-decoration: none;
+    align-items: center;
+
+    margin-bottom: 20px;
+    }
+    .adress {
+      color: var(--color-buttom);
+      font-weight:500;
+      line-height:1.14;
+      font-size:14px;
+      font-style: normal;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      }
+    .adress:hover,
+    .adress:focus {
+      color: var(--color-acsent);
+    }
+    .adress-footer {
+      display:flex;
+      flex-direction:column;
+    } 
+    
+    .adress-street {
+      font-family: Roboto, sans-serif;
+      font-weight:400;
+      line-height:1.71;
+      font-size:14px;
+      letter-spacing: 0.03em;
+      color: #ffffff;
+      text-decoration: none;
+      }
+      
+    .adress-contact {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      font-family: Roboto, sans-serif;
+      font-weight:400;
+      line-height:1.71;
+      font-size:14px;
+      letter-spacing: 0.03em;
+
+     padding-top: 9px;
+     }
+    
+    
+    
 /* стилизация раздела наши работы страница портфолио */
 .works-portfolio {
 font-size:  0;
 margin: 0;
+}
+.portfolio-hero {
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .butportfolio {
 display:flex;
  
 align-items: center;
 justify-content: center;
-padding-top: 100px;
+margin-bottom: 50px;
  }
  .porbut {
 padding: 6px 22px;
 text-align: center;
-margin-left: 8px;
+ }
+ .portfolio-buttom {
+  margin-left: 8px;
  }
 
 .work-titly {
@@ -379,10 +385,8 @@ margin-left: 8px;
   line-height: 1.40;
   font-size: 18px;
   letter-spacing: 0.03em;
-  
-  padding-left: 24px;
-  padding-right: 24px;  
-  padding-top: 20px;
+  padding-bottom: 4px;
+    
   }
 .works-types {
   margin-top: 0;
@@ -391,18 +395,18 @@ margin-left: 8px;
   font-weight: 400;
   line-height: 2;
   font-size: 16px;
-  letter-spacing: 0.03em;
-
-  padding-top: 4px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px; 
+  letter-spacing: 0.03em;  
 }
+.work-hero-text {
+  padding: 20px 24px;
+}
+.work-hero-block {
+  margin-bottom: 30px;
+}
+
 .work-hero {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
-  padding-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -411,9 +415,8 @@ margin-left: 8px;
   display: inline-block;
   width: 370px;
   height: 404px;
-  margin-top: 30px;
   border: 1px solid #EEEEEE;
-  
+ 
   }  
 
   
