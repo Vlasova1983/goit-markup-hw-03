@@ -12,40 +12,46 @@
 
 <body class="page">
     <header class="hat">
-        <div class="main-nav container">
-            <a href="" class="logo"><span class="logo-web">Web</span>Studio</a>
-            <nav class="site-nav">
-                <ul class="list menu">
-                    <li>
-                        <a href="./index.html" class="link current">Студия</a>
-                    </li>
-                    <li>
-                         <a href="./portfolio.html" class="link">Портфолио</a>
-                    </li>
-                    <li>
-                        <a href="#adress" class="link">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="tel-adr">
-                <a href="mailto:info@devstudio.com" class="adress curent">info@devstudio.com</a>
-                <a href="tel:+380961111111" class="adress tel-header">+38 096 111 11 11</a>
-            </div>
-        </div>            
+        <div class="container">
+            <div class="main-nav">
+                <a href="" class="logo"><span class="logo-web">Web</span>Studio</a>
+                <nav class="site-nav">
+                    <ul class="list menu">
+                        <li class="menu-text">
+                            <a href="./index.html" class="link current">Студия</a>
+                        </li>
+                        <li class="menu-text">
+                            <a href="./portfolio.html" class="link">Портфолио</a>
+                        </li>
+                        <li class="menu-text">
+                            <a href="#adress" class="link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="tel-adr">
+                        <a href="mailto:info@devstudio.com" class="adress curent">info@devstudio.com</a>
+                        <a href="tel:+380961111111" class="adress tel-header">+38 096 111 11 11</a>
+                 </div>
+                       
+            </div>         
+        </div>
+       
     </header>
        
     <main class="main">
-         <section class="hero container">
-            <h1 class="baner header">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>           
-            <button type="button" class="button primary butbuner">Заказать услугу</button>
-        </section>
+         <section class="hero">
+            <div class="container">
+                <h1 class="baner header">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>           
+                <button type="button" class="button primary butbuner">Заказать услугу</button>
+            </div>
+         </section>
 
         <section class="fishka">
             <div class="container">
                 <h2 class="studio">Особенности студии</h2>
                 <ul class="list fishka-text">
                     <li class="fishka-content">
-                        <h3 class="studio-titel header one">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                        <h3 class="studio-titel header">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                         <p class="studio-text one">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
                     <li class="fishka-content">
@@ -86,39 +92,39 @@
                 </ul>
             </div>
          </section>
-         <section>
-            <div class="container comanda-about">
+         <section  class="comanda-about">
+            <div class="container">
                 <h2 class="comanda header">Наша команда</h2>
                 <ul class="list secshion-comander">
                     <li class="blok-comanda">
                         <a class="comanda-img one"><img src="./images/foto1.jpg" alt="Фото Игорь Демьяненко" width="270" height="260"/></a>
-                        <section>
+                        <div class="comanda-text">
                             <p class="comanda-fio">Игорь Демьяненко</p>
                             <p lang="en" class="profeshion">Product Designer</p> 
-                        </section>                        
+                        </div>                        
                     </li>
                     <li class="blok-comanda">
                         <a class="comanda-img"> <img src="./images/foto2.jpg" alt="Фото Ольга Репина" width="270" height="260"/></a>
-                        <section>
+                        <div class="comanda-text">
                             <p class="comanda-fio">Ольга Репина</p>
                             <p lang="en" class="profeshion">Frontend Developer </p>
-                        </section>
+                        </div>
                         
                     </li>
                     <li class="blok-comanda">
                         <a class="comanda-img"> <img src="./images/foto3.jpg" alt="Фото Николай Тарасов" width="270" height="260"/></a>
-                        <section>
+                        <div class="comanda-text">
                             <p class="comanda-fio">Николай Тарасов</p>
                             <p lang="en" class="profeshion">Marketing</p>
-                        </section>    
+                        </div>    
                     </li>                      
                         
                     <li class="blok-comanda">
                         <a class="comanda-img" > <img src="./images/foto4.jpg" alt="Фото Михаил Ермаков" width="270" height="260"/></a>
-                        <section>
+                        <div class="comanda-text">
                             <p class="comanda-fio">Михаил Ермаков</p>
                             <p lang="en" class="profeshion"> UI Designer </p>
-                        </section>
+                        </div>
                         
                     </li>
                 </ul>
@@ -126,13 +132,15 @@
         </section>
               
     </main>
-     <footer class="container footer" >
-        <a href="" class="logo-web-bottom"><span class="logo-web">Web</span>Studio</a>
+     <footer class="footer">
+        <div class="container">
+            <a href="" class="logo-web-bottom"><span class="logo-web">Web</span>Studio</a>
         <address id="adress" class="adress adress-footer">
             <a href="" class="adress-street">г. Киев, пр-т Леси Украинки, 26</a>
             <a href="mailto:info@devstudio.com" class="adress-contact">info@devstudio.com</a>
             <a href="tel:+380971664000" class="adress-contact">+38 096 111 11 11</a>
         </address>
+        </div>        
     </footer>
    
         
