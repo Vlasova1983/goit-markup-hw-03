@@ -211,7 +211,7 @@ font-size:  0;
   margin-bottom: 0;
   padding-top: 10px;
 }
-.fishka-content
+.fishka-content:not(:last-child)
 {
   margin-right: 30px; 
 }
@@ -220,6 +220,7 @@ font-size:  0;
 .secshion-work {
   padding-top: 94px;
   padding-bottom: 94px;
+ 
 }
 .work-studio {
     font-size:36px;
@@ -232,6 +233,7 @@ font-size:  0;
  .secshion-work .work-foto {
   display: flex;
   align-items: center;
+  justify-content: center;
   }
 .work-img {
   width:370px;
@@ -260,10 +262,15 @@ font-size:  0;
   background-color: #e5e5e5;
   }
 
-  .blok-comanda {
-  margin-right: 30px;
-  border-radius: 0px 0px 4px 4px;
+  .blok-comanda:not(:last-child) {
+   margin-right: 30px;
+  
   }
+
+  .blok-comanda {
+   border-radius: 0px 0px 4px 4px;
+  }
+
 .comanda-text {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -374,7 +381,7 @@ margin-bottom: 50px;
 padding: 6px 22px;
 text-align: center;
  }
- .portfolio-buttom {
+ .portfolio-buttom:not(:first-child) {
   margin-left: 8px;
  }
 
@@ -405,6 +412,7 @@ text-align: center;
 }
 
 .work-hero {
+  margin-bottom: -30px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
